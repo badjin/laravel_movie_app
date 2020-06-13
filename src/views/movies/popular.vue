@@ -4,8 +4,8 @@
       cols="12" xs="12" sm="4" md="3" lg="3" xl="2"
       v-for="(movie, index) in popularMovies"
       :key="index"
-    >      
-      <movie-card :movie="movie" />      
+    >
+      <movie-card :movie="movie" />
     </v-col>
     <infinite-loading @infinite="initialize"></infinite-loading>
   </v-row>
