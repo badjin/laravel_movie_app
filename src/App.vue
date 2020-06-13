@@ -16,6 +16,7 @@
     />
 
     <v-content class="pb-5">
+      <scroll-top />
       <router-view/>
     </v-content>
 
@@ -43,12 +44,14 @@
 <script>
 import NavBar from "./components/Navigator/NavBar"
 import NavDrawer from "./components/Navigator/NavDrawer"
+import ScrollTop from "./components/ScrollTop"
 
 export default {
   name: 'App',
   components: {
     NavBar,
     NavDrawer,
+    ScrollTop
   },
 
   data () {
