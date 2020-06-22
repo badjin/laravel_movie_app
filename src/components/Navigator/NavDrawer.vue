@@ -2,6 +2,7 @@
   <v-navigation-drawer
     v-model="drawer"
     dark
+    app
     absolute
     temporary
     :expand-on-hover="expandOnHover"
